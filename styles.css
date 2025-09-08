@@ -6,6 +6,10 @@ html {
   height: 100%;
 }
 
+h1 {
+  padding-top: 25px;
+  text-align: center !important;
+}
 :root {
   /* Light mode */
   --bg: #f9fbf9; /* nästan vit med hint av grönt */
@@ -46,9 +50,8 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
   display: block;
+  margin: auto;
 }
 
 .container {
